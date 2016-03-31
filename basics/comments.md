@@ -1,5 +1,8 @@
 # Comments
 
+<!-- START doctoc -->
+<!-- END doctoc -->
+
 PHP gives the developer a number of choices for writing comments. It supports C, C++, and Unix shell-style (Perl style) comments.
 
 ```php

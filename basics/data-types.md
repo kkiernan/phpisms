@@ -1,5 +1,9 @@
 # Data Types
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
 - [Scalar Types](#scalar-types)
     - [Numeric Values](#numeric-values)
     - [Strings](#strings)
@@ -8,6 +12,8 @@
 - [Other Data Types](#other-data-types)
 - [Gotchas](#gotchas)
 - [Sources](#sources)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Scalar Types
 
