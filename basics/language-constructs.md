@@ -17,4 +17,4 @@ echo "String 1", "String 2";
 
 ## Sources
 
-[PHP Language Constructs vs Built-in Functions](http://www.phpknowhow.com/basics/language-constructs-vs-built-in-functions/)
+- [PHP Language Constructs vs Built-in Functions](http://www.phpknowhow.com/basics/language-constructs-vs-built-in-functions/)

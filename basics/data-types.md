@@ -7,6 +7,7 @@
 - [Compound Data Types](#compound-data-types)
 - [Other Data Types](#other-data-types)
 - [Gotchas](#gotchas)
+- [Sources](#sources)
 
 ## Scalar Types
 
@@ -96,3 +97,7 @@ echo (int) ((0.1 + 0.7) * 10);
 
 echo ((0.1 + 0.7) * 10);
 ```
+
+## Sources
+
+- [Zend PHP 5 Certification Study Guide, 3rd Edition](https://www.phparch.com/books/zend-php-5-certification-study-guide-3rd-edition/)

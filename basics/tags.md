@@ -64,5 +64,5 @@ ASP tags were introduced at some point for whatever reason, but are considered d
 
 ## Sources
 
-[PHP Manual](http://php.net/manual/en/language.basic-syntax.phptags.php)
-[Zend PHP 5 Certification Study Guide, 3rd Edition](https://www.phparch.com/books/zend-php-5-certification-study-guide-3rd-edition/)
+- [PHP Manual](http://php.net/manual/en/language.basic-syntax.phptags.php)
+- [Zend PHP 5 Certification Study Guide, 3rd Edition](https://www.phparch.com/books/zend-php-5-certification-study-guide-3rd-edition/)
