@@ -1,5 +1,11 @@
 # Languages Constructs
 
+- [Introduction](#introduction)
+- [Examples](#examples)
+- [Sources](#sources)
+
+## Introduction
+
 Language constructs are elements that are built into the language, the most common of which is probably `echo`. Others include `die`, `exit`, `isset`, `unset`, `include`, `require` and `print`. These are not actually built-in functions; the difference is in how the PHP engine interprets the two. Language constructs also don't require parenthesis.
 
 ## Examples
