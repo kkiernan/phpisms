@@ -17,7 +17,7 @@ define('DEBUG', true);
 echo DEBUG;
 ```
 
-Staring with PHP 5.3 you can use the `const` keyword to define constants:
+Starting with PHP 5.3 you can use the `const` keyword to define constants:
 
 ```php
 // Output: smtp
