@@ -6,7 +6,9 @@
 
 - [Introduction](#introduction)
 - [Arithmetic Operators](#arithmetic-operators)
-    - [Increment/Decrement Operator](#increment-decrement-operator)
+    - [Increment and Decrement Operators](#increment-and-decrement-operators)
+- [String Concatenation Operator](#string-concatenation-operator)
+- [Sources](#sources)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -43,7 +45,7 @@ Power          | $a = 2 ** 9;    | Added in PHP 5.6.
 Increment      | $a++; ++$a;     |
 Decrement      | $a\-\-; \-\-$a; |
 
-### Increment/Decrement Operator
+### Increment and Decrement Operators
 
 These are a special category of operator that are used to increment or decrement the value of an integer by one. If the operator is placed to the right of the operand, the value is returned first and then incremented by one. If the operator is placed to the left of the operand, the value is incremented by one and then returned.
 
@@ -59,3 +61,29 @@ echo $a;
 // Increments $a, which is now 1. Prints 1.
 echo ++$a;
 ```
+
+## String Concatenation Operator
+
+PHP provides a single string concatenation operator. Note that if the addition operator is used to concatenate strings, the strings will be converted to numeric values and added together.
+
+```php
+// Output: Foo Bar
+$foo = "Foo";
+$bar = "Bar";
+echo $foo . " " . $bar;
+```
+
+```php
+// Output: 0
+$foo = "Foo";
+$bar = "Bar";
+echo $foo + " " + $bar;
+```
+
+## Bitwise Operators
+
+Bitwise operators manipulate bits of data, and they are designed to work on integers, so the interpreter converts the operands into integers before executing the operation.
+
+## Sources
+
+- [Zend PHP 5 Certification Study Guide, 3rd Edition](https://www.phparch.com/books/zend-php-5-certification-study-guide-3rd-edition/)
