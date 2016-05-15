@@ -6,8 +6,7 @@
 |---------------------------------------------------------------------
 |
 | When running on the command line, the $_SERVER global will contain
-| any command line arguments passed to the script. Check out some
-| more cool stuff below.
+| any command line arguments passed to the script.
 |
 */
 
