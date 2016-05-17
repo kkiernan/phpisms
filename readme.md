@@ -1,3 +1,3 @@
 # PHPisms
 
-This repo is a collection of notes and examples I've put together while studying for the Zend PHP 5 Certification exam. I highly recommend the [Zend PHP 5 Certification Study Guide, 3rd Edition](https://www.phparch.com/books/zend-php-5-certification-study-guide-3rd-edition/) even if you do not plan on taking the exam. Most of the information here is from that book, the PHP docs and a few blogs. I've tried to cite where appropriate. Lots of great information.
+This repo is a collection of notes and examples I've put together while studying for the Zend PHP 5 Certification exam. I've tried to cite sources where appropriate. I have found the [PHP Certification Study Guide](http://www.zend.com/en/services/certification/php-certification-study-guide) and [Zend PHP 5 Certification Study Guide, Third Edition](https://www.phparch.com/books/zend-php-5-certification-study-guide-3rd-edition/) extremely valuable while studying for the exam.
