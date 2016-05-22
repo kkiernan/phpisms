@@ -11,6 +11,13 @@
 |
 */
 
+/**
+ * Modifies the given array passed by reference.
+ *
+ * @param array &$array
+ *
+ * @return null
+ */
 function modifyArray(&$array)
 {
     foreach ($array as &$value) {
@@ -24,5 +31,4 @@ $array = [1, 2, 3];
 
 modifyArray($array);
 
-//  Will print Array([0] => 3, [1] => 4, [2] => 8)
-print_r($array);
+print_r($array); //  Prints "Array([0] => 3, [1] => 4, [2] => 8)"
