@@ -36,12 +36,12 @@ echo sum(1, 2, 8, 10) . "\n"; // prints "21"
  * Takes a variable-length list of arrays by reference and transforms
  * them into the product of their first and second items multiplied.
  *
- * @param array $squares
+ * @param array $rectangles
  */
-function mapDimensionsToAreas(array &...$squares)
+function mapDimensionsToAreas(array &...$rectangles)
 {
-    foreach ($squares as &$square) {
-        $square = $square[0] * $square[1];
+    foreach ($rectangles as &$rectangle) {
+        $rectangle = $rectangle[0] * $rectangle[1];
     }
 }
 
