@@ -15,9 +15,9 @@
 /**
  * Calculates the sum of the given numbers.
  *
- * @param mixed $nums
+ * @param array $nums
  *
- * @return mixed
+ * @return integer
  */
 function sum(...$nums)
 {
