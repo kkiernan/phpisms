@@ -58,4 +58,25 @@ $dave = new Employee('Dave', 'Smith', 'Engineer');
 // be printed if we had not implemented the interface.
 // 
 // Prints: {"name":"Dave","email":"Smith","position":"Engineer"}
-echo json_encode($dave);
+echo json_encode($dave) . PHP_EOL;
+
+// Ok, lets get Dave as a JSON string.
+$jsonDave = json_encode($dave);
+
+// And now for fun, let's get an object Dave
+// back from the string using json_decode.
+$objectDave = json_decode($jsonDave);
+
+// See it worked.
+echo $objectDave->name . PHP_EOL;
+
+// But wait! We can also force Dave to be an array.
+$arrayDave = json_decode($jsonDave, true);
+
+// Ha! Wonderous!
+echo $arrayDave['name'];
+
+// json_decode also takes a depth parameters and an additional
+// options bitmask value. Refer to the docs for more info.
+// 
+// http://php.net/manual/en/function.json-decode.php
