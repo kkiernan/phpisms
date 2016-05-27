@@ -6,8 +6,8 @@
 |---------------------------------------------------------------------
 |
 | The following are some trickier example I've come across while
-| studying for the Zend exam. These come from various study
-| guides and PHP tutorial sites.
+| studying for the Zend exam. These ideas come from various
+| study guides and PHP tutorial sites.
 |
 */
 
