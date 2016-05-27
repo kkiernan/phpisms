@@ -54,13 +54,13 @@ class Employee implements JsonSerializable
 // Create a new employee.
 $dave = new Employee('Dave', 'Smith', 'Engineer');
 
-// Note that this is especially badass as an empty object would
+// Note that this is especially bad ass as an empty object would
 // be printed if we had not implemented the interface.
 // 
 // Prints: {"name":"Dave","email":"Smith","position":"Engineer"}
 echo json_encode($dave) . PHP_EOL;
 
-// Ok, lets get Dave as a JSON string.
+// Ok, let's get Dave as a JSON string.
 $jsonDave = json_encode($dave);
 
 // And now for fun, let's get an object Dave
