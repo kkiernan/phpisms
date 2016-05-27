@@ -76,7 +76,7 @@ $arrayDave = json_decode($jsonDave, true);
 // Ha! Wonderous!
 echo $arrayDave['name'];
 
-// json_decode also takes a depth parameters and an additional
+// json_decode also takes a depth parameter and an additional
 // options bitmask value. Refer to the docs for more info.
 // 
 // http://php.net/manual/en/function.json-decode.php
