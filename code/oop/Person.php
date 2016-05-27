@@ -1,7 +1,7 @@
 <?php
 
 /**
- * A simple person class.
+ * A simple person class for use in other examples.
  */
 class Person
 {
