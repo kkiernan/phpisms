@@ -54,8 +54,8 @@ class Employee implements JsonSerializable
 // Create a new employee.
 $dave = new Employee('Dave', 'Smith', 'Engineer');
 
-// Note that this is especially badass as an empty
-// object would be printed otherwise.
+// Note that this is especially badass as an empty object would
+// be printed if we had not implemented the interface.
 // 
 // Prints: {"name":"Dave","email":"Smith","position":"Engineer"}
 echo json_encode($dave);
