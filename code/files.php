@@ -6,13 +6,10 @@
 |---------------------------------------------------------------------
 */
 
-// Get file size in bytes.
+// Basic examples.
 echo filesize('../assets/albums.csv') . PHP_EOL;
-
-// Get file type.
 echo filetype('../assets/alone.txt') . PHP_EOL;
-
-// Print boolean indicating if a file exists.
+echo fileowner('../assets/albums.csv') . PHP_EOL; 
 var_dump(file_exists('./doesnt-exist.txt'));
 
 // Open CSV for reading.
@@ -30,4 +27,11 @@ fclose($albums);
 readfile('../assets/albums.csv') . PHP_EOL;
 
 // Read file contents into a string.
-echo file_get_contents('../assets/alone.txt');
+echo file_get_contents('../assets/alone.txt') . PHP_EOL;
+
+// Read file contents into an array.
+print_r(file('../assets/alone.txt'));
+
+// Write a string to a file. Identicaly to calling
+// fopen(), fwrite() and fclose().
+file_put_contents('../assets/foo.txt', 'hello file!');
